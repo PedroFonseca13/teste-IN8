@@ -2,16 +2,17 @@
 // divisível por 2, 3 e 10 ao mesmo tempo. Quando encontrá-lo, imprima-o na tela.
 
 
-const recurse = () => {
+const recurse = (i) => {
   const divider1 = 2;
   const divider2 = 3;
   const divider3 = 10;
 
-  for (let i = 0; i <= 9; i++) {
-    if (i % divider1 == 0 && i % divider2 == 0 && i % divider3 == 0) {
-      console.log(i)
-    }
-  }
-}
+  const remainder = (i % divider1) + (i % divider2) + (i % divider3);
 
-recurse()
+  remainder === 0 ? console.log(i) : (
+    i++,
+    recurse(i)
+  )
+};
+
+recurse(1)
