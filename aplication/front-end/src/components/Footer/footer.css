@@ -1,0 +1,22 @@
+#footer {
+  background-image: url('../../assets/img/rodape-desktop.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height:200px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container {
+  text-align: center
+}
+
+.text-footer {
+  color: #fff;
+  padding-bottom: 10px;
+}
