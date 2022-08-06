@@ -1,7 +1,5 @@
 import React from 'react';
-
 import logo from '../../assets/icons/logo-in8-dev.svg';
-// import menu from '../../assets/icons/hamburguer.svg';
 
 import './header.css';
 export default function index() {
