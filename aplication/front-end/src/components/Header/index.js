@@ -24,7 +24,7 @@ export default function index() {
 							</Link>
 						</li>
 						<li className="">
-							<Link className="" to="/">
+							<Link className="" to="/about-me">
 								sobre mim
 							</Link>
 						</li>
